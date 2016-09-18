@@ -1,0 +1,122 @@
+/* ==|====================
+   Module/Buttons
+   ======================= */
+.btn{
+	width: 163px;
+	height: 36px;
+	line-height: 34px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	text-decoration: none;
+	letter-spacing: normal;
+}
+.btn:hover,
+.btn:focus{
+	text-decoration: none;
+	color: #fff;
+	opacity: .5;
+}
+.btn-all{
+	display: block;
+	background-color: #e21683;
+	width: 165px;
+	height: 31px;
+	line-height: 29px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+	border: none;
+	border-bottom: 2px solid #a9246b;
+	letter-spacing: normal;
+}
+.btn-all:hover,
+.btn-all:focus{
+	opacity: .5;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-purp-border{
+	line-height: 36px;
+	color: $color1;
+	background-color: transparent;
+	border: 2px solid $color1;
+}
+.btn-purp-border:hover,
+.btn-purp-border:focus{
+	background-color: $color1;
+	color: #fff;
+	border: 2px solid $color1;
+}
+
+
+.btn-menu{
+  width: 40px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; */
+}
+.btn-menu i{
+    display: block;
+  	position: absolute;
+  	width: 100%;
+  	height: 5px;
+    background-color: #fff;
+    border: none;
+  	border-radius: 4px;
+}
+.btn-menu i::before,
+.btn-menu i::after{
+	content: '';
+    display: block;
+  	position: absolute;
+  	width: 100%;
+  	height: 5px;
+    background-color: #fff;
+    border: none;
+  	border-radius: 4px;
+}
+.btn-menu i{
+  top: 0px;
+  transition: transform 0.5s, top 0.2s;
+/* transition-delay: 0.2s, 0s; */
+}
+.btn-menu i::before{
+top: 12px;
+  transition: transform 0.5s, top 0.2s;
+  transition-delay: 0.2s, 0s;
+}
+.btn-menu i::after{
+	top: 24px;
+  transition: all 0.5s;
+  transition-delay: 0.1s;
+}
+
+.btn-menu.active i{
+  background-color: transparent;
+  top: 28px;
+  transform: rotate(180deg);
+}
+.btn-menu.active i::before{
+  top: 15px;
+  transform: rotate(-140deg);
+}
+.btn-menu.active i::after{
+  top: 15px;
+  transform: rotate(140deg);
+}
+

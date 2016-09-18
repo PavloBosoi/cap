@@ -1,0 +1,163 @@
+/* ==|====================
+   Module/Text_edit
+   ======================= */
+
+.text_edit h1 {
+    font: bold 20px/24px $font1;
+    margin: 0 0 28px 0;
+    text-align: center;
+    color: $color2;
+    text-transform: uppercase;
+}
+.main-info .text_edit h1{
+    text-align: center;
+}
+
+.text_edit h2 {
+    font: 400 20px/24px $font1;
+    color: #000;
+    margin: 25px 0 15px 0;
+}
+
+.text_edit h3{
+    font: 400 18px/22px $font1;
+    color: #000;
+    margin: 25px 0 15px 0;
+}
+.text_edit h3:first-child{
+    margin: 0 0 15px 0;
+}
+
+.text_edit a {
+    color: $red;;
+}
+
+.text_edit a:hover {
+    text-decoration: underline;
+}
+
+.text_edit p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    margin: 20px 0 0 0;
+    line-height: 20px;
+}
+.text_edit p:first-child{
+    margin: 0;
+}
+
+.text_edit strong {
+    font-weight: bold;
+}
+
+.text_edit ul {
+    font: 400 16px/18px $font1;
+    text-align: left;
+    margin: 15px 18px 22px;
+}
+
+.text_edit ul li ul {
+    margin-top: 15px;
+    text-align: left;
+}
+.text_edit ul li {
+    list-style-type: none;
+    position: relative;
+    margin-top: 22px;
+    padding-left: 15px;
+    display: block;
+    text-align: left;
+}
+.text_edit ul li:first-child{
+	margin: 0;
+}
+.text_edit ul li:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 5px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: $color2;
+}
+
+.text_edit ul li span{
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text_edit ol {
+    font: 400 14px/20px $font1;
+    text-align: left;
+    margin: 20px 0;
+    counter-reset: li;
+}
+
+.text_edit ol li {
+    position: relative;
+    margin-top: 15px;
+    display: block;
+    text-align: left;
+}
+.text_edit ol li span{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 3px 0 0;
+}
+
+.text_edit ol li:before {
+    content: counter(li, decimal) ".";
+    counter-increment: li;
+    font-weight: 400;
+    color: #000;
+    margin: 0 3px 0 0;
+}
+
+.text_edit ol li ol {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.text_edit > img{
+    margin: 0 20px 0 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.text_edit blockquote {
+    border: 1px dotted #123;
+    border-left: 5px solid #000;
+    font-style: italic;
+    padding: 10px;
+    width: 85%;
+    margin: 15px auto 0;
+}
+
+.text_edit table{
+    width: 100%;
+}
+.text_edit th{
+    font-weight: bold;
+    padding: 18px;
+    background-color: #ebebeb;
+    border-left: 1px solid #d7d7d7;
+    text-align: left;
+}
+.text_edit th:first-child{
+    border-left: 1px solid #ebebeb;
+}
+.text_edit th:last-child{
+    border-right: 1px solid #ebebeb;
+}
+.text_edit td{
+    background-color: #fff;
+    font-weight: 400;
+    padding: 18px;
+    border: 1px solid #d7d7d7;
+}

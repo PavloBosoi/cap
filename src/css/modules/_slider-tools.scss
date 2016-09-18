@@ -1,0 +1,121 @@
+/* ==|====================
+   Module/Slider-tools
+   ======================= */
+
+.slider{
+    margin: 15px 0 0 0;
+}
+.dots .owl-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.dots .owl-dots div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
+    transition: all .5s ease;
+}
+
+.dots .owl-dots .active,
+.dots .owl-dots div:hover{
+    background-color: $color2;
+}
+
+
+
+.nav .owl-controls{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin: -31px 0 0 0;
+}
+.nav .owl-nav div {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 40px;
+    color: $color2;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.nav .nav-prev{
+    left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav .nav-next{
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.nav .owl-nav .active,
+.nav .owl-nav div:hover{
+    opacity: .5;
+}
+
+
+.dots-nav .owl-controls {
+    text-align: center;
+}
+
+.dots-nav .owl-nav{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+.dots-nav .owl-nav div {
+    position: absolute;
+    top: 0;
+    width: 28px;
+    height: 24px;
+    margin: -12px 0 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.dots-nav .nav-prev{
+    left: 20px;
+}
+.dots-nav .nav-next{
+  right: 20px;
+}
+.dots-nav .owl-nav .active,
+.dots-nav .owl-nav div:hover{
+    opacity: .5;
+}
+
+.dots-nav .owl-dots div {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    margin: 0 7px;
+    border: 1px solid #88888a;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+.dots-nav .owl-dots .active,
+.dots-nav .owl-dots div:hover{
+    background-color: #88888a;
+}
+
+
+.owl-item {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}

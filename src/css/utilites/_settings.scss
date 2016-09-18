@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Fonts
+$font1: 'PFBeauSansPro', sans-serif;
+$font2: 'PFBeauSansPro', sans-serif;
+
+// = Colors
+// -----------------------------
+
+// Graphic chart
+$lilac: #15098b;
+$lilacLight: #8b69c4;
+$purp: #e21683;
+
+$color1: $lilac;
+$color2: $lilacLight;
+$color3: $purp;
+$red: $purp;
+
+
+// = Grid
+// -----------------------------
+
+// Max width wrapper
+$wrapper-width: pxtoem(1140, 16);
+
+// = Inline grid
+// -----------------------------
+%parent{
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -7px;
+}
+%child{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: normal;
+  display: inline-block;
+}
+%align-middle{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}

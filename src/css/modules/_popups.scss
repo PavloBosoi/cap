@@ -1,0 +1,150 @@
+/* ==|====================
+   Module/Popups
+   ======================= */
+
+.popup-block{
+	border: 1px solid $color2;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.popup-block p{
+	font-size: 14px;
+	line-height: 18px;
+}
+.popup-title h5{
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 0 25px 0;
+}
+.popup-title > p{
+	margin: 15px 0 0 0;
+}
+.popup-title > p:first-child{
+	margin: 0;
+}
+.btn-popup{
+	width: 150px;
+	height: 33px;
+	line-height: 30px;
+	background-color: $color2;
+	border-bottom: 3px solid $color1;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+	margin: 20px auto 0;
+	text-decoration: none;
+	letter-spacing: normal;
+}
+.btn-popup:hover,
+.btn-popup:focus{
+	text-decoration: none;
+	color: #fff;
+	opacity: .5;
+}
+.popup-block label span{
+	font-size: 12px;
+	color: $color2;
+	margin: 0 0 10px 0;
+}
+
+.thanks-form{
+	width: 300px;
+	text-align: center;
+	padding: 18px 30px 20px;
+}
+
+.video-form{
+	width: 840px;
+	padding: 25px 30px 30px;
+}
+.video-form .item{
+	float: left;
+}
+.video-form .video-block{
+	width: 65%;
+}
+.video-form .video-block iframe{
+	width: 100%;
+	height: 290px;
+}
+.video-form .info-block{
+	padding: 0 0 0 25px;
+	width: 35%;
+}
+.video-form .info-block p{
+	margin: 15px 0 0 0;
+}
+.video-form .info-block p:first-child{
+	margin: 0;
+}
+.download-block{
+	display: block;
+	margin: 55px 0 0 0;
+	text-align: center;
+}
+.download-block a{
+	color: $color2;
+}
+.download-block span{
+	display: block;
+	margin: 10px 0 0 0;
+	color: $color2;
+}
+
+.popup-swim{
+	width: 240px;
+	padding: 15px 20px 20px;
+	text-align: center;
+	position: absolute;
+	top: 130%;
+	right: 0;
+	z-index: 8019;
+}
+.popup-swim .popup-title > p{
+	margin: 0 0 15px 0;
+}
+.popup-swim input{
+	width: 150px;
+	height: 30px;
+	margin: 0 0 10px 0;
+}
+.popup-swim .btn-popup{
+	margin: 10px auto 0;
+}
+.popup-swim::before{
+	content: '';
+	position: absolute;
+	top: -15px;
+	right: 85px;
+	border: 8px solid transparent;
+	border-bottom: 8px solid #fff;
+}
+
+
+.popup-swim .item-img{
+	width: 58px;
+	float: left;
+}
+.popup-swim .item-info{
+	margin: 0 0 0 60px;
+	text-align: left;
+}
+.popup-swim .item-info h6 a{
+	font-size: 14px;
+	color: $color2;
+	margin: 0 0 5px 0;
+	font-weight: 400;
+}
+
+.swim-cart{
+	right: -10px;
+}
+.swim-cart .btn-popup{
+	margin: 20px auto 0;
+}
+.swim-cart::before{
+	right: 25px
+}

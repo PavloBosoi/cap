@@ -1,0 +1,17 @@
+/* ==|====================
+   Layout/Container
+   ======================= */
+
+.wrapper {
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    overflow: hidden;
+}
+.content {
+	padding: 35px 0 240px 0;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+    overflow: hidden;
+}

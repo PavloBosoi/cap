@@ -1,0 +1,39 @@
+/* ==|====================
+   Module/Fancybox
+   ======================= */
+/*a.fancybox-close {
+    right: -5px;
+    top: -5px;
+}
+ .fancybox-default a.fancybox-close{
+    background: transparent url("../images/close.png") no-repeat scroll 50% 50%;
+}
+.fancybox-default a.fancybox-close:hover{
+    background: transparent url("../images/close-h.png") no-repeat scroll 50% 50%;
+} */
+
+#fancybox-loading,
+#fancybox-lock,
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-inner,
+.fancybox-error,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-wrap embed,
+a.fancybox-close,
+a.fancybox-expand,
+.fancybox-tmp {
+    box-sizing: content-box;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.fancybox-skin {
+    border-width: 0 !important;
+}
+
+.fancybox-default-skin {
+    background: transparent;
+}

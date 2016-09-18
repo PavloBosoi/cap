@@ -1,0 +1,69 @@
+/* ==|====================
+   Module/Titles
+   ======================= */
+.titles-block h5{
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	margin: 0 0 15px 0;
+}
+.title-condensed h5{
+	font-family: $font2;
+}
+
+.title-main h4{
+	font: bold 24px/28px $font1;
+	margin: 0 0 22px 0;
+	text-align: center;
+	color: $color2;
+}
+
+.title-deep h1,
+.title-deep h4{
+	font: bold 20px/24px $font1;
+	margin: 0 0 28px 0;
+	text-align: center;
+	color: $color2;
+	text-transform: uppercase;
+}
+.title-pseudo{
+	position: relative;
+	padding: 0 0 25px 12px;
+	margin: 0;
+	text-align: left;
+}
+.title-pseudo::before{
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: $color2;
+}
+.title-pseudo::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 70px;
+	height: 2px;
+	background-color: #d7d7d7;
+}
+.title-pseudo h4{
+	margin: 0;
+	text-align: left;
+}
+
+.product-title{
+	font: 400 18px/22px $font1;
+	margin: 0 0 22px 0;
+	text-align: center;
+	color: $color2;
+}
+.product-title h5{
+	font: 400 18px/22px $font1;
+}
